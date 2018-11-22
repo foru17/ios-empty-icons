@@ -196,6 +196,11 @@ appearance: none;
     font-weight: bold;
     line-height: 1.8rem;
 }
+
+.info .tips{
+    font-weight: bold;
+    color:#ea4334;
+}
 .uploader-container input{
 -webkit-appearance: none;
 -moz-appearance: none;
