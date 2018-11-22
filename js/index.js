@@ -36,11 +36,6 @@
      }
 
      $('#uploadFile').change(function() {
-        if(is_neizhi() === false){
-            return
-        }else{
-            alert('请在 Safari 中打开此网页');
-        }
          $("#container").empty().append("<img class='loading-gif' src='" + Global.loadingGif + "' />");
          $("#container").empty().append("<img class='preview-image' src='" + window.URL.createObjectURL(this.files[0]) + "' />");
          var file = this.files[0].name;
