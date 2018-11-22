@@ -181,6 +181,21 @@ body {
 appearance: none; 
 }
 
+.info{
+    border:1px dashed #999999;
+    width:80%;
+    margin: 0 auto;
+    padding:.5rem 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.4rem;
+    color:#999999;
+}
+.info h4{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
 .uploader-container input{
 -webkit-appearance: none;
 -moz-appearance: none;
