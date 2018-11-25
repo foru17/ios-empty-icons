@@ -33,6 +33,7 @@
          "2001": new Config(180, 81, 84, 66, 81, 84, 6),
          "2208": new Config(180, 105, 113, 60, 104, 120, 6),
          "2436": new Config(180, 82, 215, 22, 81, 126, 6), // iphone X 适配
+         "2688": new Config(186, 98, 236, 22, 100, 151, 6),
      }
 
      $('#uploadFile').change(function() {
@@ -52,7 +53,6 @@
              var marginLeft = window.getComputedStyle(document.body).marginLeft.replace("px", "");
              console.log(marginLeft);
              var ratio = (screen.availWidth - 2 * marginLeft) / img.naturalWidth;
-             // $container.css("transform-origin", "0 0");
              $container.css("transform", "scale(" + ratio + "," + ratio + ")");
          };
      });
@@ -63,6 +63,7 @@
          var row = 1;
          var column = 1;
          var config = configs[wallpaperImage.naturalHeight];
+
          console.log(wallpaperImage.naturalHeight)
          if (!config) {
              alert("尚未对该分辨率的设备进行适配");
