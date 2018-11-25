@@ -227,6 +227,16 @@ appearance: none;
     font-weight: bold;
     color:#ea4334;
 }
+
+.tips-small{
+  display: block;
+  margin:.5rem 0;
+    font-style: normal;
+      font-weight: normal;
+      font-size: .8rem;
+      line-height: 1rem;
+    color:#1CA363;
+}
 .uploader-container input{
 -webkit-appearance: none;
 -moz-appearance: none;

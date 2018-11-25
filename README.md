@@ -13,5 +13,5 @@
 
 使用方法请参考视频教程:
 
-* [Youtube: 我的 iPhone 有点不一样 | 透明图标任意摆放 | iPhone Empty Icons | 教程 ](https://www.youtube.com/watch?v=N86NrzUWt7Q)
+* [Youtube: 我的 iPhone 有点不一样 | 透明图标任意摆放 | iPhone Empty Icons | 教程 ](https://www.youtube.com/watch?v=BxO2aU2nI-o)
 * [Bilibili:教程 | 我的 iPhone 桌面有点不一样 | 超简单实现iPhone图标任意摆放](http://space.bilibili.com/7388950?)
