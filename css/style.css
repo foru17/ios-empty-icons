@@ -104,7 +104,7 @@ body {
   fill: currentColor;
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: none;
-  -webkit-touch-callout: none
+  -webkit-touch-callout: none;
 }
 .noscroll,
 .noscroll body {
@@ -120,11 +120,10 @@ body {
 /*Custome*/
 #container {
     position: relative;
-    margin-top: 1rem;
+    margin: 1rem auto;
     border-radius: 1rem;
-    width:100%;
-    min-width: 100%;
     transform-origin:0 0;
+
 }
 .loading-gif{
     display: block;
@@ -133,12 +132,15 @@ body {
 }
 .preview-image{
     display: block;
+    box-shadow: 1px 1px 1px #888888;
+    border-radius: .5rem;
 }
 .demo-image{
     display: block;
     width:100%;
     position: relative;
     max-width: 100%;
+    border-radius: .5rem;
 }
 .uploadFile{
     display: block;
@@ -159,9 +161,10 @@ body {
 
 .label {
     color: #222;
-    font-size: 1.6rem;
+    font-size: 2rem;
     display: table-cell;
     vertical-align: middle;
+    font-weight: bold;
 }
 #button-upload{
     margin:2rem auto;
@@ -181,10 +184,33 @@ body {
 appearance: none; 
 }
 
+.black-tip{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: #666666;
+    opacity: .8;
+    z-index: 9;
+}
+
 .info{
     border:1px dashed #999999;
     width:80%;
     margin: 0 auto;
+    padding:.5rem 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.4rem;
+    color:#999999;
+}
+
+.info-des{
+    border:1px dashed #999999;
+    width:80%;
+    margin: 2rem auto;
     padding:.5rem 1rem;
     font-size: 1rem;
     font-weight: lighter;
