@@ -232,6 +232,13 @@ appearance: none;
     color:#ea4334;
 }
 
+.info-des .tips{
+  font-style: normal;
+    line-height: 2rem;
+    font-weight: bold;
+    color:#ea4334;
+}
+
 .tips-small{
   display: block;
   margin:.5rem 0;
