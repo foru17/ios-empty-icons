@@ -158,10 +158,14 @@ body {
     text-align: center;
     display: table;
 }
-
+.nav-foot{
+  margin: 0 .5rem;
+  line-height: 1.2rem;
+  text-decoration: underline;
+}
 .label {
     color: #222;
-    font-size: 2rem;
+    font-size: 1.6rem;
     display: table-cell;
     vertical-align: middle;
     font-weight: bold;
