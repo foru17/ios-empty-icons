@@ -31,6 +31,7 @@
          "1136": new Config(120, 32, 54, 44, 32, 56, 5),
          "1334": new Config(120, 54, 56, 44, 54, 56, 6),
          "1624": new Config(120, 54, 147, 44, 54, 83, 6),
+         "1792": new Config(128, 64, 155, 60, 63, 97, 6),
          "2001": new Config(180, 81, 84, 66, 81, 84, 6),
          "2208": new Config(180, 105, 113, 60, 104, 120, 6),
          "2436": new Config(180, 82, 215, 22, 81, 126, 6), // iphone X 适配
@@ -52,7 +53,8 @@
              generateIcon();
              var $container = $("#container");
              var marginLeft = window.getComputedStyle(document.body).marginLeft.replace("px", "");
-             console.log(marginLeft);
+             console.log('availWidth' + screen.availWidth)
+             console.log('naturalWidth' + img.naturalWidth)
              var ratio = (screen.availWidth - 2 * marginLeft) / img.naturalWidth;
              $container.css("transform", "scale(" + ratio + "," + ratio + ")");
          };
